@@ -1,0 +1,95 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 3px solid var(--Light-Sapphire, #E6ECFE);
+    background: var(--Blanc, #FFF);
+    width: 481px;
+}
+.welcome-text {
+    color: var(--Sapphire, #253C85);
+    /* H1 - Headings */
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.sign-in-text {
+    color: var(--Dark-Grey, #525454);
+
+    /* H4 - Card, Nav, Tab */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+    width: 100%;
+}
+.inputLabel {
+    color: var(--Dark-Grey, #525454);
+
+    /* OVERLINE 1 */
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 80px;
+}
+.input {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    outline: 0;
+    border-width: 0 0 2px;
+    margin-left: 69;
+    align-self: stretch;
+    /* width: 100% */
+}
+::placeholder {
+    color: var(--Mid-Grey, #A9A9A9);
+    /* Body 1 - Text Block, Button */
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.account-text {
+    color: var(--Dark-Grey, #525454);
+
+    /* Body 1 - Text Block, Button */
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.activate-link {
+    color: var(--Sapphire, #253C85);
+
+    /* Body 1 - Text Block, Button */
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+}
